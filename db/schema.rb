@@ -10,12 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200213064223) do
+ActiveRecord::Schema.define(version: 20200213071534) do
 
   create_table "juego_parametros", force: :cascade do |t|
     t.integer "NumColumna"
     t.integer "NumFila"
     t.integer "numMinas"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "juegos", force: :cascade do |t|
+    t.integer "Usuario"
+    t.string "estatusJuego"
+    t.boolean "ResultadoJuego"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
