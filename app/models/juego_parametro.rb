@@ -1,0 +1,2 @@
+class JuegoParametro < ApplicationRecord
+end

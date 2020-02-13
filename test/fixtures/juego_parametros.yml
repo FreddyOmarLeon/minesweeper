@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  NumColumna: 1
+  NumFila: 1
+  numMinas: 1
+
+two:
+  NumColumna: 1
+  NumFila: 1
+  numMinas: 1
